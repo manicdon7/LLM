@@ -15,7 +15,7 @@ import yt_dlp
 def initialize_llm():
     llm: LLM = G4FLLM(
         model=models.gpt_4o,
-        provider=Provider.Chatgpt4o, 
+        provider=Provider.MetaAI, 
     )
     return llm
 
