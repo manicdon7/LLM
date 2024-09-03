@@ -41,7 +41,7 @@ def create_chat_chain(llm):
 # Initialize text-to-speech engine
 def initialize_tts():
     engine = pyttsx3.init()
-    engine.setProperty('rate', 150)  # Set speaking speed
+    engine.setProperty('rate', 160)  # Set speaking speed
     voices = engine.getProperty('voices')
     engine.setProperty('voice', voices[1].id if len(voices) > 1 else voices[0].id)
     return engine
