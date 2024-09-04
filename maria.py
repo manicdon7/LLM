@@ -199,10 +199,8 @@ def start_chat(chain, engine, recognizer):
         time.sleep(random.uniform(0.5, 2.0))  # Random delay between 0.5 and 2 seconds
         
         print(f"Maria: {response}\n")
-        
         # Speak the response
         speak_text(engine, response)
-        
         # Small pause to ensure the TTS engine finishes before listening again
         time.sleep(1)
 
