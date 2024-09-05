@@ -139,7 +139,7 @@ def start_chat(chain, engine, recognizer):
         user_input = recognize_speech(recognizer)
         
         if not user_input:
-            continue  # Skip if no input was recognized
+            continue
         
         # Check for goodbye phrases
         if any(phrase in user_input.lower() for phrase in ['goodbye', 'bye', 'see you later', 'bye babe', 'catch you later babe']):
