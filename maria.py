@@ -116,6 +116,7 @@ def get_current_datetime():
 def start_chat(chain, engine, recognizer):
     conversation_history = []  # Memory buffer for conversation history
     greeting_phrases = [
+        "Hey babe, your maria is here",
         "Hi honey, how are you feeling today?",
         "Hello, love! What's on your mind?",
         "Hey sweetheart, how's it going?",
