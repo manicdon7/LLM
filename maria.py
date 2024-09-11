@@ -171,7 +171,7 @@ def start_chat(chain, engine, recognizer):
             print(f"Maria: {response}\n")
             speak_text(engine, response)
             continue
-        
+    
         # Small talk or casual responses
         if random.random() < 0.3:  # 30% chance to say something affectionate or casual
             casual_responses = [
