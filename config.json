@@ -1,0 +1,22 @@
+{
+    "model_name": "claude_3_7_sonnet",
+    "provider": "PollinationsAI",
+    "tts_rate": 175,
+    "tts_voice": 14,
+    "energy_threshold": 300,
+    "pause_threshold": 0.7,
+    "greeting_phrases": [
+        "Hey there! How can I assist you today?",
+        "Hi! How are you feeling today? What's on your mind?",
+        "Hello! What would you like to discuss or do today?",
+        "Hey! Ready to tackle the day together?",
+        "Hi! Always happy to hear from you! What can I help with?"
+    ],
+    "goodbye_phrases": [
+        "Catch you later! Feel free to reach out anytime!",
+        "Goodbye! Talk to you soon, take care!",
+        "See you later! Remember, I'm always here for you if you need anything!",
+        "Bye for now! Looking forward to our next chat.",
+        "Farewell for now! Stay well and talk to you soon!"
+    ]
+}
